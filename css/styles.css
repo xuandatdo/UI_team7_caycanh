@@ -14,10 +14,37 @@ a {
 }
 
 .content {
-    width: 1110px;
-    max-width: calc(100% - 48px);
+    width: 1170px;
+    max-width: calc(100% - 150px);
     margin-left: auto;
     margin-right: auto;
+}
+/* ------------------------------------------ header ------------------------------------------ */
+.fixed-header {
+    background: white;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.navbar ul {
+    display: flex;
+    margin-left: auto;
+}
+
+.navbar ul a {
+    font-weight: 500px;
+    font-size: 1.4rem;
+    color: #3E603B;
+    padding: 8px 14px;
 }
 
 /* ------------------------------------------ Stats ------------------------------------------ */
@@ -33,7 +60,7 @@ a {
 }
 
 .stats .content {
-    width: 1048px;
+    width: 1170px;
 }
 
 .stats .row {
@@ -41,10 +68,8 @@ a {
 }
 
 div.info {
-    margin-left: 41px ;
+    margin-left: 41px;
 }
-
-
 
 .stats .img-block img {
     display: block;
@@ -57,7 +82,6 @@ div.info {
 
 .stats .img-block .haianhnho {
     display: flex;
-
 }
 
 .stats .img-block .haianhnho img {
@@ -65,7 +89,6 @@ div.info {
     height: 140px;
     margin: 0;
 }
-
 
 .stats .sub-title {
     position: relative;
@@ -87,8 +110,6 @@ div.info {
 .desc strong {
     font-weight: 700;
 }
-
-
 
 .btnsize .btn {
     display: flex;
@@ -112,8 +133,8 @@ div.info {
 }
 
 .btnsize {
-    display: flex; 
-    gap: 8px; 
+    display: flex;
+    gap: 8px;
     margin-left: 120px;
 }
 
@@ -122,7 +143,7 @@ div.info {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    border: 1px solid #9b9b9b;
+    border: 1px solid #f1f1f1;
 }
 
 .motasp .content .img img {
@@ -157,14 +178,13 @@ div.info {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
-    
+    justify-content: center;
 }
 
 .cacsp .item .title a {
     font-weight: 700;
     font-size: 1.6rem;
-    color: #1C2334;
+    color: #1c2334;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -192,5 +212,5 @@ div.info {
     height: 30px;
     border: 1px solid #989898;
     border-radius: 3px;
-    margin-left: 2px; ;
+    margin-left: 2px;
 }
