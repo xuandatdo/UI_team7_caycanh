@@ -1,0 +1,196 @@
+html,
+body {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 1110px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ------------------------------------------ Stats ------------------------------------------ */
+.stats h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #9b9b9b;
+    margin-bottom: 110px;
+}
+.stats {
+    margin-top: 75px;
+    padding: 50px 0;
+}
+
+.stats .content {
+    width: 1048px;
+}
+
+.stats .row {
+    display: flex;
+}
+
+div.info {
+    margin-left: 41px ;
+}
+
+
+
+.stats .img-block img {
+    display: block;
+
+    width: 438px;
+    height: 438px;
+
+    object-fit: cover;
+}
+
+.stats .img-block .haianhnho {
+    display: flex;
+
+}
+
+.stats .img-block .haianhnho img {
+    width: 140px;
+    height: 140px;
+    margin: 0;
+}
+
+
+.stats .sub-title {
+    position: relative;
+    width: 275px;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #999;
+}
+
+.stats .desc {
+    width: 331px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #5a6473;
+}
+
+.desc strong {
+    font-weight: 700;
+}
+
+
+
+.btnsize .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: black;
+    margin-right: 10px; /* thêm khoảng cách giữa các nút */
+}
+
+.chonkichthuoc .size-and-btn {
+    margin-top: 50px;
+    min-width: 284px;
+    display: flex;
+    align-items: center; /* Cho .btn và .size nằm giữa theo chiều dọc */
+}
+
+.btnsize {
+    display: flex; 
+    gap: 8px; 
+    margin-left: 120px;
+}
+
+.motasp .content .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #9b9b9b;
+}
+
+.motasp .content .img img {
+    margin-top: 30px;
+}
+/* các sản phẩm  */
+.sptuontu {
+    margin-top: 30px;
+}
+.cacsp .list {
+    display: flex;
+    margin-top: 70px;
+    gap: 29px;
+}
+.cacsp .item {
+    flex: 1;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.cacsp .item .thumb {
+    width: 100%;
+    height: 352px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.cacsp .item .body {
+    padding: 17px 20px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    
+}
+
+.cacsp .item .title a {
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #1C2334;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.cacsp .item .desc {
+    margin-top: 11px;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #222;
+    word-break: break-all;
+}
+.body .btnsizesp {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.body .btnsizesp .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 66px;
+    height: 30px;
+    border: 1px solid #989898;
+    border-radius: 3px;
+    margin-left: 2px; ;
+}
